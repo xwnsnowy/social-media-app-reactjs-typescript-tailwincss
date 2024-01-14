@@ -131,7 +131,7 @@
   }
 
   .explore-search {
-    @apply bg-dark-4 placeholder:text-light-4 h-12 border-none ring-offset-0 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply bg-dark-4 placeholder:text-light-4 h-12 border-none ring-offset-0 focus-visible:ring-0 focus-visible:ring-offset-0 #{!important};
   }
 
   /* Home */
@@ -250,31 +250,31 @@
   /* SHADCN COMPONENTS */
   /* Form */
   .shad-form_label {
-    @apply text-white !important;
+    @apply text-white #{!important};
   }
 
   .shad-form_message {
-    @apply text-red !important;
+    @apply text-red #{!important};
   }
 
   .shad-input {
-    @apply bg-dark-4 placeholder:text-light-4 ring-offset-light-3 h-12 border-none focus-visible:ring-1 focus-visible:ring-offset-1 !important;
+    @apply bg-dark-4 placeholder:text-light-4 ring-offset-light-3 h-12 border-none focus-visible:ring-1 focus-visible:ring-offset-1 #{!important};
   }
 
   .shad-textarea {
-    @apply bg-dark-3 ring-offset-light-3 h-36 rounded-xl border-none focus-visible:ring-1 focus-visible:ring-offset-1 !important;
+    @apply bg-dark-3 ring-offset-light-3 h-36 rounded-xl border-none focus-visible:ring-1 focus-visible:ring-offset-1 #{!important};
   }
 
   /* Button */
   .shad-button_primary {
-    @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 !important;
+    @apply bg-primary-500 hover:bg-primary-500 text-light-1 flex gap-2 #{!important};
   }
 
   .shad-button_dark_4 {
-    @apply bg-dark-4 text-light-1 flex h-12 gap-2 px-5 !important;
+    @apply bg-dark-4 text-light-1 flex h-12 gap-2 px-5 #{!important};
   }
 
   .shad-button_ghost {
-    @apply flex items-center justify-start gap-4 hover:bg-transparent hover:text-white !important;
+    @apply flex items-center justify-start gap-4 hover:bg-transparent hover:text-white #{!important};
   }
 }
