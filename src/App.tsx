@@ -4,7 +4,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 
 function App() {
   return (
-    <div className="">
+    <div className="flex min-h-screen">
       <Routes>
         {publicRoutes.map((route, index) => {
           const Page = route.component;
